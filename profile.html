@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page - SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <nav>
+         <div class="nav-left">
+            <a href="index.html">
+            <img src="images/logo2.png" class="logo">
+            </a>
+       
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+         </div>
+         <div class="nav-right">
+
+           <div class="search-box">
+            <img src="images/search.png">
+            <input type="text" placeholder="Search">
+           </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/krish_pic.png">
+
+            </div>
+         </div>
+
+          <!------------------Dropdown--Settings-menu---------------------------->
+         <div class="settings-menu">
+
+            <div id="dark-btn">
+              <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/krish_pic.png">
+                    <div>
+                        <p>Krish</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                 <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                 </div>
+                 <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                 </div>
+                 <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                 </div>
+                 <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout<img src="images/arrow.png" width="10px"></a>
+                 </div>
+      
+
+            </div>
+         </div>
+
+
+    </nav>
+
+      <!----------Profile page------------>
+
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/krish_pic.png" class="pd-image">
+                    <div>
+                        <h3>Krish</h3>
+                        <p>120 Friends - 20 mutual</p>
+                        <img src="images/jass.png">
+                        <img src="images/mihir.png">
+                        <img src="images/sahil.png">
+                        <img src="images/jatin.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+           <button type="button"><img src="images/add-friends.png">Friend</button>
+           <button type="button"><img src="images/message.png">Message</button>
+           <br>
+           <a href=""><img src="images/more.png"></a>
+            </div>
+        </div>
+
+           <div class="profile-info">
+             <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelievable things. <img src="images/feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li> <img src="images/profile-job.png" >Page Admin at Instagram</li>
+                        <li><img src="images/profile-study.png" >Student at JMIT </li>
+                        <li><img src="images/profile-home.png" >Lives in kurukshetra,Haryana</li>
+                        <li> <img src="images/profile-location.png" >From Kaithal,Haryana</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                    <a href="">All Photos</a>
+                    </div>
+                    
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png"></div>
+                        <div><img src="images/photo2.png"></div>
+                        <div><img src="images/photo3.png"></div>
+                        <div><img src="images/photo4.png"></div>
+                        <div><img src="images/photo5.png"></div>
+                        <div><img src="images/photo6.png"></div>
+                    </div>
+                </div>
+
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                    <a href="">All Friends</a>
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="images/krish_pic.png"><p>Krish</p></div>
+                        <div><img src="images/jass.png"><p>Jass</p></div>
+                        <div><img src="images/member-9.png"><p>Nitin</p></div>
+                        <div><img src="images/mihir.png"><p>Mihir</p></div>
+                        <div><img src="images/sahil.png"><p>Sahil</p></div>
+                        <div><img src="images/jatin.png"><p>Jatin</p></div>
+                    </div>
+                </div>
+
+
+
+
+             </div>
+
+             <div class="post-col">
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/krish_pic.png">
+                        <div>
+                            <p>Krish</p>
+                            <small>Public<i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+        
+                   <div class="post-input-container">
+                     <textarea rows="3" placeholder="What's on your mind Krish?"></textarea>
+                     <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png">Live Video</a>
+                        <a href="#"><img src="images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+                     </div>
+                   </div>
+        
+        
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/krish_pic.png">
+                            <div>
+                                <p>Krish</p>
+                                <span>August 28 2023, 6:55 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                   
+                    <p class="post-text">Bhole teri nagri mei aakr sukoon mei pata hu, na lagti bhukh pyaas sab dukh bhul mei jata hu <span>@Kedarnath</span> <a href="#">#shiv</a> <a href="#">#jaimahakal</a></p>
+                    <img src="images/mahadev.png" class="post-img">
+        
+                    <div class="post-row">
+                       <div class="activity-icons">
+                    <div><img src="images/like-blue.png">10M</div>
+                    <div><img src="images/comments.png">45k</div>
+                    <div><img src="images/share.png">200k</div>
+                       </div>
+                       <div class="post-profile-icon">
+                      <img src="images/krish_pic.png"> <i class="fas fa-caret-down"></i>
+                       </div>
+                    </div>
+        
+                </div>
+        
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/jass.png">
+                            <div>
+                                <p>Jass</p>
+                                <span>September 28 2023, 7:53 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                   
+                    <p class="post-text">Spending holidays at the beach with friends can be a fantastic way to create lasting memories and have a lot of fun.<span>@GoaBeach</span> <a href="#">#Beach_Bonfire</a> </p>
+                    <img src="images/feed-image-2.png" class="post-img">
+        
+                    <div class="post-row">
+                       <div class="activity-icons">
+                    <div><img src="images/like.png">150</div>
+                    <div><img src="images/comments.png">55</div>
+                    <div><img src="images/share.png">25</div>
+                       </div>
+                       <div class="post-profile-icon">
+                      <img src="images/jass.png"> <i class="fas fa-caret-down"></i>
+                       </div>
+                    </div>
+        
+                </div>
+        
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/mihir.png">
+                            <div>
+                                <p>Mihir</p>
+                                <span>july 23 2023, 5:33 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                   
+                    <p class="post-text">Lost in Laughter, Found in Friendship. 💬  <span>@Sydney,Australia</span> <a href="#">#FriendshipTherapy</a> </p>
+                    <img src="images/feed-image-3.png" class="post-img">
+        
+                    <div class="post-row">
+                       <div class="activity-icons">
+                    <div><img src="images/like-blue.png">190</div>
+                    <div><img src="images/comments.png">5</div>
+                    <div><img src="images/share.png">34</div>
+                       </div>
+                       <div class="post-profile-icon">
+                      <img src="images/mihir.png"> <i class="fas fa-caret-down"></i>
+                       </div>
+                    </div>
+        
+                </div>
+        
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/sahil.png">
+                            <div>
+                                <p>Sahil</p>
+                                <span>june 21 2023, 3:33 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                   
+                    <p class="post-text">Unlocking New Worlds: One Language at a Time 🌎💻 <span>@Webdeveloper</span> <a href="#">#CodeandConverse</a></p>
+                    <img src="images/sahil_feed.jpg" class="post-img">
+        
+                    <div class="post-row">
+                       <div class="activity-icons">
+                    <div><img src="images/like-blue.png">220</div>
+                    <div><img src="images/comments.png">15</div>
+                    <div><img src="images/share.png">2</div>
+                       </div>
+                       <div class="post-profile-icon">
+                      <img src="images/sahil.png"> <i class="fas fa-caret-down"></i>
+                       </div>
+                    </div>
+        
+                </div>
+        
+        
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/jatin.png">
+                            <div>
+                                <p>Jatin</p>
+                                <span>march 28 2023, 4:53 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                   
+                    <p class="post-text">Elevating Our Digital Presence, One Pixel at a Time! 🖥️🚀 <span>@webdevelopers</span>  <br> <a href="#">#WebImprovementMeeting</a> </p>
+                    <img src="images/feed-image-5.png" class="post-img">
+        
+                    <div class="post-row">
+                       <div class="activity-icons">
+                    <div><img src="images/like-blue.png">150</div>
+                    <div><img src="images/comments.png">5</div>
+                    <div><img src="images/share.png">2</div>
+                       </div>
+                       <div class="post-profile-icon">
+                      <img src="images/jatin.png"> <i class="fas fa-caret-down"></i>
+                       </div>
+                    </div>
+        
+                </div>
+
+             </div>
+
+           </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2023 - krishan Sharma</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
